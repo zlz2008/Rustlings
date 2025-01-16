@@ -5,7 +5,7 @@
 导学阶段将通过 Rustlings 进行测试，我们选取了 Rustlings 练习的前16道基础题目进行测试，确保您具备基本的编程能力，请按照以下步骤进行练习：
 
 1. 在网络浏览器中用自己的 github id 登录 github.com。
-2. 请将本仓库 fork 到您的 github 账号下，然后参照一下步骤完成环境配置和实验提交:
+2. 请将本仓库 fork 到您的 github 账号下，然后参照以下步骤完成环境配置和实验提交:
 * 本地环境：
   1. **安装Linux的环境**。对于windows的用户，推荐使用wsl2安装Ubuntu 22.04，也可以使用vmware等虚拟机进行安装。如果在这一步存在问题，请联系助教。
   2. **创建ssh key，用于ssh方式克隆github代码**。在linux环境下，使用`ssh-keygen -t rsa -b 4096 -C "你的邮箱"`命令，创建ssh key，下面的选项全部直接敲回车即可。 随后使用` cat ~/.ssh/id_rsa.pub` 命令查看生成的公钥，并完整的复制下来。 在github仓库界面点击自己的头像，选择`settings`。进入到设置页面后，点击左侧的`SSH and GPG keys`选项。点击`New SSH key`选项，并将复制下来的内容粘贴上去，添加该ssh key的描述。随后点击`Add SSH key`，并一路点击确认即可。
